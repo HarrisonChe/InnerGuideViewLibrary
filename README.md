@@ -1,8 +1,8 @@
 # InnerGuideViewLibrary
-##Android内部引导页（支持Activity和Fragment）
+## Android内部引导页（支持Activity和Fragment）
 
 
-**引用方法**：  
+### 引用方法：  
 第一步：在Project的build.gradle文件中添加:  
 ```java
 	allprojects {  
@@ -21,8 +21,8 @@
  ```
   
   
-**使用方法**：  
-在需要引导的Activity的onCreate或者其他函数中写入代码  
+### 使用方法：  
+在需要引导的Activity或者fragment的onCreate或者其他函数中写入代码  
 ```java
 Map<View,String> map=new LinkedHashMap<>();   //定义需要高亮引导的view集合和对应的提示文字，按顺序加入  
         map.put(v1,"这是个人信息");  
@@ -40,4 +40,4 @@ Map<View,String> map=new LinkedHashMap<>();   //定义需要高亮引导的view�
                 .setDash(true)                 //是否显示虚线边框  
                 .build();  
         igv.show();            //显示引导页  
-	```
+```
