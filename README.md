@@ -2,7 +2,7 @@
 ##Android内部引导页（支持Activity和Fragment）
 
 
-###引用方法：  
+**引用方法**：  
 第一步：在Project的build.gradle文件中添加:  
 ```java
 	allprojects {  
@@ -11,15 +11,17 @@
 			maven { url 'https://jitpack.io' }  
 		}  
 	}  
+  ```
   
 第二步：在app的build.gradle文件中添加：  
+```java
 	dependencies {  
 	        implementation 'com.github.HarrisonChe:InnerGuideViewLibrary:1.0'  
 	}  
-```  
+ ```
   
   
-###使用方法：  
+**使用方法**：  
 在需要引导的Activity的onCreate或者其他函数中写入代码  
 ```java
 Map<View,String> map=new LinkedHashMap<>();   //定义需要高亮引导的view集合和对应的提示文字，按顺序加入  
