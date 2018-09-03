@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll"
+    android:background="#FFFFFF"
+    >
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="个人信息"
+        android:padding="20dp"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:layout_marginTop="120dp"
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="钱包"
+        android:padding="10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:layout_marginTop="200dp"
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置"
+        android:padding="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        />
+    <TextView
+        android:layout_marginTop="300dp"
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看"
+        android:padding="10dp"
+        android:background="@android:color/holo_purple"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv5"
+        android:text="退出"
+        android:padding="10dp"
+        android:background="@android:color/holo_green_light"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="50dp"
+        />
+
+</RelativeLayout>
