@@ -16,7 +16,7 @@
 第二步：在app的build.gradle文件中添加：  
 ```java
 	dependencies {  
-	        implementation 'com.github.HarrisonChe:InnerGuideViewLibrary:1.0'  
+	        compile 'com.github.HarrisonChe:InnerGuideViewLibrary:1.0'  
 	}  
  ```
   
